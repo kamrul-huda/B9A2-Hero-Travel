@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+:root {
+    --base-color: #FF5400;
+    --white-color: color: #FFF;
+    --black-color: color: #131318;
+    --gray-color: color:  #424247;
+}
+
+.header {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.header .header-content .header-title {
+    color: var(--black-color);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: var( --gray-color);
+    font-size: 1rem;
+}
+
+.home-nav{
+    font-weight: 700;
+}
+
+.special {
+    color: var(--base-color);
+}
