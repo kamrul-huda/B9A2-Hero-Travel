@@ -131,6 +131,72 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    font-size: 0.8rem;  
-    cursor: pointer;  
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.popular-tour {
+    margin: 70px auto;
+}
+
+.popular-tour-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-tour-container .popular-tour-text {
+    width: 50%;
+}
+
+.popular-tour-text>*,
+.popular-tour-description>* {
+    margin-bottom: 20px;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.popular-tour-description ul {
+    padding-left: 50px;
+}
+
+.popular-tour-description ul li {
+    margin-bottom: 15px;
+}
+
+.popular-tour-image {
+    width: 50%;
+}
+
+.popular-tour-image img {
+    width: 100%;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    padding: 10px 20px;
+    outline: 0px solid rgb(204, 201, 201);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    outline: 2px solid rgb(204, 201, 201);
+    scale: 1.1;
 }
