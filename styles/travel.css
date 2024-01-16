@@ -589,6 +589,10 @@ nav{
     position: relative;
 }
 
+.perfect-place-image video{
+    width: 100%;
+}
+
 
 .video-text {
     position: absolute;
@@ -598,7 +602,7 @@ nav{
     z-index: 10;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -625,11 +629,12 @@ nav{
 .news-letter-container {
     display: flex;
     justify-content: space-between;    
-    gap: 100px;
+    gap: 50px;
     height: 100%;
 }
 
 .news-letter-text {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -669,10 +674,12 @@ nav{
 
 .news-letter-image img {
     width: 100%;
+    height: 450px;
 }
 
 .news-letter-line {
-    width: 400px;
+    /* width: 320px; */
+    margin-bottom: 15px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
 }
