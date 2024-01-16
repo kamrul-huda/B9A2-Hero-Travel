@@ -8,7 +8,17 @@
     }
 
     .header .header-content,
-    nav {
+    nav,
+    .destination-text p,
+    .choose-us-text p,
+    .discount-text p,
+     .news-letter-text p,
+    .customer-review-content p,
+    .footer-section p,
+    .footer-line,
+    .video-text, .news-letter-line, .perfect-place-image,
+    .perfect-place-container .perfect-place-text,
+    .news-letter-image img {
         width: 100%;
     }
 
@@ -23,11 +33,11 @@
     }
 
     .header .header-content {
+        justify-content: center;
         gap: 10px;
     }
 
     .site-logo {
-        width: 50%;
         text-align: right;
     }
 
@@ -42,17 +52,6 @@
     .news-letter-text h2,
     .customer-review-content h3 {
         font-size: 1.6rem;
-    }
-
-
-    .destination-text p,
-    .choose-us-text p,
-    .discount-text p,
-     .news-letter-text p,
-    .customer-review-content p,
-    .footer-section p,
-    .footer-line {
-        width: 100%;
     }
      
     .footer-section p,
@@ -77,7 +76,6 @@
         background-repeat: no-repeat;
         background-size: 400%;
     }
-
 
     .popular-tour-container {
         display: flex;
@@ -104,7 +102,6 @@
         font-size: 1.1rem;
     }
 
-
     .discount-card-1,
     .discount-card-2 {
         position: absolute;
@@ -130,48 +127,24 @@
         gap: 20px;
     }
 
-    .perfect-place-container .perfect-place-text {
-        width: 100%;
-    }
-
-     .perfect-place-image {
-        width: 100%;
-    }
-
     .perfect-place-image>video {
         width: 100%;
         height: auto;
     }
-
-    .video-text {
-        width: 100%;
+        
+    .news-letter-container {     
+        gap: 20px;
+        height: 100%;
     }
 
-    
-.news-letter-container {
-     
-    gap: 20px;
-    height: 100%;
-}
-
-.news-letter-text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 16px;
-    border: 1px solid #FF5400;
-}
-
-/* 
     .news-letter-text {
-        width: 100%;
-        padding: 20px;
-    } */
-
-    .news-letter-line {
-        width: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
     }
 
     .news-letter-form {
@@ -196,10 +169,6 @@
         right: 3px;
     }
 
-    .news-letter-image img {
-        height: 100%;
-    }
-
     .news-letter-text>* {
         margin-bottom: 10px;
     }
@@ -207,16 +176,15 @@
     .save-up h2 {
         font-size: 1.1rem;
     }
+
+    .customer-review-container {
+        display: flex;
+        flex-direction: column;
+    }
     
     footer {
         padding: 10px;
     }
-
-    .footer-section {
-        width: 100%;
-    }
-
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -460,5 +428,4 @@
     .footer-section {
         width: 100%;
     }
-
 }
