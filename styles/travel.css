@@ -744,7 +744,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px auto;
+    margin: 50px auto;
 }
 
 .customer-review-container {
@@ -784,7 +784,7 @@ nav{
 
 footer {
     background: rgba(19, 19, 24, 0.05);
-    padding: 60px;
+    padding: 30px;
 }
 
 .footer-section {
@@ -809,7 +809,6 @@ footer {
     font-weight: 400;
     line-height: 20px;
     margin-top: 20px;
-    /* 162.5% */
 }
 
 .footer-line {

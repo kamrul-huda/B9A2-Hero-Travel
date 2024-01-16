@@ -12,11 +12,13 @@
     .destination-text p,
     .choose-us-text p,
     .discount-text p,
-     .news-letter-text p,
+    .news-letter-text p,
     .customer-review-content p,
     .footer-section p,
     .footer-line,
-    .video-text, .news-letter-line, .perfect-place-image,
+    .video-text,
+    .news-letter-line,
+    .perfect-place-image,
     .perfect-place-container .perfect-place-text,
     .news-letter-image img {
         width: 100%;
@@ -53,7 +55,7 @@
     .customer-review-content h3 {
         font-size: 1.6rem;
     }
-     
+
     .footer-section p,
     .footer-line {
         width: 60%;
@@ -118,7 +120,7 @@
 
     .discount-card-2 {
         left: 18px;
-    }    
+    }
 
     .perfect-place-container {
         display: flex;
@@ -131,8 +133,8 @@
         width: 100%;
         height: auto;
     }
-        
-    .news-letter-container {     
+
+    .news-letter-container {
         gap: 20px;
         height: 100%;
     }
@@ -180,8 +182,8 @@
     .customer-review-container {
         display: flex;
         flex-direction: column;
-    }
-    
+    } 
+
     footer {
         padding: 10px;
     }
