@@ -29,8 +29,23 @@
     .destination-text h2,
     .popular-tour-title,
     .destination-text h2,
-    .choose-us-text h2  {
+    .choose-us-text h2,
+    .discount-text h2,
+    .perfect-place-title,
+    .video-text,
+    .news-letter-text h2,
+    .customer-review-content h3 {
         font-size: 1.5rem;
+    }
+
+    .destination-text p,
+    .choose-us-text p,
+    .discount-text p,
+    .news-letter-text p,
+    .customer-review-content p,
+    .footer-section p,
+    .footer-line {
+        width: 100%;
     }
 
     .banner-description {
@@ -53,10 +68,16 @@
         width: 100%;
     }
 
-    .banner-image {    
+    .banner-image {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 450%;
+    }
+
+    .discount-item-1 img,
+    .discount-item-2 img {
+        object-fit: cover;
+        border-radius: 15px;
     }
 
     .popular-tour-container {
@@ -74,11 +95,8 @@
         width: 90%;
     }
 
-    .destination-text p, .choose-us-text p  {
-        width: 100%;
-    }
-
-    .destination-image-container, .choose-us-image-container {
+    .destination-image-container,
+    .choose-us-image-container {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -99,12 +117,126 @@
         font-size: 1.3rem;
     }
 
-    .popular-tour-description ul {
+    .popular-tour-description ul,
+    .perfect-place-description ul {
         padding-left: 20px;
     }
 
+    .discount-card-1,
+    .discount-card-2 {
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        height: 390px;
+        bottom: 15px;
+        right: 15px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+    }
+
+    .discount-card-2 {
+        left: 15px;
+    }
+
+    .discount-card-1-icon,
+    .discount-card-2-icon {
+        flex-wrap: wrap;
+        margin: 0px 20px;
+        column-gap: 30px;
+        row-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .discount-card-2-text,
+    .discount-card-1-text {
+        margin: 0px 20px;
+    }
+
+    .perfect-place-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .perfect-place-container .perfect-place-text {
+        width: 100%;
+    }
+
+    .perfect-place-image {
+        width: 100%;
+    }
+
+    .perfect-place-image>video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-text {
+        width: 100%;
+    }
+
+    .news-letter-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .news-letter-text {
+        padding: 20px;
+    }
+
+    .news-letter-line {
+        width: 100%;
+    }
+
+    .news-letter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .save-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: absolute;
+        bottom: 35px;
+        right: 10px;
+    }
+
+    .news-letter-image img {
+        height: 300px;
+    }
+
+    .news-letter-text>* {
+        margin-bottom: 10px;
+    }
 
 
+    .save-up h2 {
+        font-size: 1.3rem;
+    }
 
+   .customer-review-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   footer {  
+    padding: 10px;
+}
+
+   .footer-section{
+    width: 100%;
+   }
 
 }
