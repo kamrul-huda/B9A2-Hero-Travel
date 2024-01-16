@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header .header-content .header-title {
+        font-size: 1rem;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+    .header .header-content {
+        width: 80%;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: right;
+    }
+
+    .banner-text,
+    .destination-text h2,
+    .popular-tour-title,
+    .destination-text h2,
+    .choose-us-text h2  {
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        width: 300px;
+        font-size: 0.8rem;
+    }
+
+    .banner .banner-image .banner-form {
+        width: 90%;
+    }
+
+    .banner .banner-image .banner-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .banner .banner-image .banner-form .text-input {
+        width: 100%;
+    }
+
+    .banner-image {    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 450%;
+    }
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .popular-tour-container .popular-tour-text {
+        width: 90%;
+    }
+
+    .popular-tour-image {
+        width: 90%;
+    }
+
+    .destination-text p, .choose-us-text p  {
+        width: 100%;
+    }
+
+    .destination-image-container, .choose-us-image-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destination-image-container img {
+        height: 176px;
+        object-fit: cover;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-amerika,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        font-size: 1.3rem;
+    }
+
+    .popular-tour-description ul {
+        padding-left: 20px;
+    }
+
+
+
+
+
+}
