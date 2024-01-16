@@ -1,3 +1,224 @@
+@media screen and ((min-width: 600px) and (max-width: 992px)) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header .header-content .header-title {
+        font-size: 1rem;
+    }
+
+    .header .header-content,
+    nav {
+        width: 100%;
+    }
+
+    .header nav ul {
+        margin: 10px auto;
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header .header-content {
+        gap: 10px;
+    }
+
+    .site-logo {
+        width: 50%;
+        text-align: right;
+    }
+
+    .banner-text,
+    .destination-text h2,
+    .popular-tour-title,
+    .destination-text h2,
+    .choose-us-text h2,
+    .discount-text h2,
+    .perfect-place-title,
+    .video-text,
+    .news-letter-text h2,
+    .customer-review-content h3 {
+        font-size: 1.6rem;
+    }
+
+
+    .destination-text p,
+    .choose-us-text p,
+    .discount-text p,
+     .news-letter-text p,
+    .customer-review-content p,
+    .footer-section p,
+    .footer-line {
+        width: 100%;
+    }
+     
+    .footer-section p,
+    .footer-line {
+        width: 60%;
+    }
+
+    .banner-description {
+        width: 450px;
+        font-size: 0.8rem;
+    }
+
+    .banner .banner-image .banner-form form {
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .banner-image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 400%;
+    }
+
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .popular-tour-container .popular-tour-text {
+        width: 90%;
+    }
+
+    .popular-tour-image {
+        width: 90%;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-amerika,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        font-size: 1.1rem;
+    }
+
+
+    .discount-card-1,
+    .discount-card-2 {
+        position: absolute;
+        width: 93%;
+        margin: auto;
+        height: 300px;
+        top: 180px;
+        right: 18px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+    }
+
+    .discount-card-2 {
+        left: 18px;
+    }    
+
+    .perfect-place-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .perfect-place-container .perfect-place-text {
+        width: 100%;
+    }
+
+     .perfect-place-image {
+        width: 100%;
+    }
+
+    .perfect-place-image>video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-text {
+        width: 100%;
+    }
+
+    
+.news-letter-container {
+     
+    gap: 20px;
+    height: 100%;
+}
+
+.news-letter-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+/* 
+    .news-letter-text {
+        width: 100%;
+        padding: 20px;
+    } */
+
+    .news-letter-line {
+        width: 100%;
+    }
+
+    .news-letter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .save-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 70px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: absolute;
+        bottom: 25px;
+        right: 3px;
+    }
+
+    .news-letter-image img {
+        height: 100%;
+    }
+
+    .news-letter-text>* {
+        margin-bottom: 10px;
+    }
+
+    .save-up h2 {
+        font-size: 1.1rem;
+    }
+    
+    footer {
+        padding: 10px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    
+}
+
 @media screen and (max-width: 600px) {
 
     .container {
@@ -227,17 +448,17 @@
         font-size: 1.3rem;
     }
 
-   .customer-review-container{
-    display: flex;
-    flex-direction: column;
-   }
+    .customer-review-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-   footer {  
-    padding: 10px;
-}
+    footer {
+        padding: 10px;
+    }
 
-   .footer-section{
-    width: 100%;
-   }
+    .footer-section {
+        width: 100%;
+    }
 
 }
