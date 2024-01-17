@@ -749,3 +749,7 @@ footer {
 .discount-card-2 {
     transition: all .3s ease-in-out;
 }
+
+.perfect-place-text h2 {     
+    line-height: 40px;
+}
