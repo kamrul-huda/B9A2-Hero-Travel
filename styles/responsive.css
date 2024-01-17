@@ -72,6 +72,12 @@
         font-size: 2rem;
         line-height: 40px;
     }
+
+    .save-up {       
+        top: 280px;
+        right: 10px;
+    }
+
 }
 
 @media screen and ((min-width: 600px) and (max-width: 992px)) {
