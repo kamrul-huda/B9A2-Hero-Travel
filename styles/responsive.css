@@ -43,18 +43,9 @@
         text-align: right;
     }
 
-    .banner-text,
-    .destination-text h2,
-    .popular-tour-title,
-    .destination-text h2,
-    .choose-us-text h2,
-    .discount-text h2,
-    .perfect-place-title,
-    .video-text,
-    .news-letter-text h2,
-    .customer-review-content h3 {
-        font-size: 1.6rem;
-    }
+    .section-title{
+        font-size: 1.8rem;
+    }    
 
     .footer-section p,
     .footer-line {
@@ -87,11 +78,17 @@
     }
 
     .popular-tour-container .popular-tour-text {
-        width: 90%;
+        width: 100%;
+        gap:15px;
     }
 
-    .popular-tour-image {
-        width: 90%;
+    .popular-tour-container .popular-tour-image {
+        width: 100%;
+        height: auto;
+    } 
+
+    .popular-tour-image img{
+        width: 100%;
     }
 
     .maldives,
@@ -216,19 +213,10 @@
         text-align: right;
     }
 
-    .banner-text,
-    .destination-text h2,
-    .popular-tour-title,
-    .destination-text h2,
-    .choose-us-text h2,
-    .discount-text h2,
-    .perfect-place-title,
-    .video-text,
-    .news-letter-text h2,
-    .customer-review-content h3 {
+    .section-title{
         font-size: 1.5rem;
     }
-
+   
     .destination-text p,
     .choose-us-text p,
     .discount-text p,
@@ -279,11 +267,17 @@
     }
 
     .popular-tour-container .popular-tour-text {
-        width: 90%;
+        width: 100%;
+        gap:10px;
     }
 
-    .popular-tour-image {
-        width: 90%;
+    .popular-tour-container .popular-tour-image {
+        width: 100%;
+        height: auto;
+    } 
+
+    .popular-tour-image img{
+        width: 100%;
     }
 
     .destination-image-container,
