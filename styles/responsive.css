@@ -266,6 +266,10 @@
     footer {
         padding: 10px;
     }
+
+    .perfect-place-text h2 {     
+        line-height: 40px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -505,5 +509,9 @@
 
     .footer-section {
         width: 100%;
+    }
+
+    .perfect-place-text h2 {     
+        line-height: 36px;
     }
 }
