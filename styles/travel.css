@@ -16,7 +16,7 @@
     --base-color: #FF5400;
     --white-color: #FFF;
     --black-color: #131318;
-    --gray-color: #424247;  
+    --gray-color: #424247;
     --darkgray-color: rgba(19, 19, 24, 0.05);
 }
 
@@ -215,7 +215,8 @@ nav {
 .btn-primary:hover {
     cursor: pointer;
     outline: 2px solid rgb(204, 201, 201);
-    scale: 1.1;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 
 .destination-container {
@@ -337,8 +338,6 @@ nav {
 .box-2,
 .box-3 {
     border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -346,16 +345,22 @@ nav {
 .box-1 {
     grid-column: 1/span 6;
     grid-row: 1/span 1;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
 
 .box-2 {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 
 .box-3 {
     grid-column: 4/span 6;
     grid-row: 2/span 1;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
 
 .choose-us-image-container img {
@@ -583,7 +588,7 @@ nav {
     flex-direction: column;
 }
 
-.news-letter-image {  
+.news-letter-image {
     position: relative;
 }
 
@@ -623,6 +628,7 @@ nav {
     font-size: 1rem;
     cursor: pointer;
     height: 52px;
+
 }
 
 .save-up {
@@ -636,8 +642,8 @@ nav {
     border-radius: 16px;
     background: #FF5400;
     position: absolute;
-    bottom: 73px;
-    right: 10px;
+    bottom: 57px;
+    right: 9px;
 }
 
 .save-up p,
@@ -716,7 +722,7 @@ footer {
 
 .reserved {
     margin: 20px auto;
-    color:var(--black-color);
+    color: var(--black-color);
     font-size: 0.8rem;
     font-weight: 300;
     font-family: 'Inter', sans-serif;
@@ -733,13 +739,13 @@ footer {
 }
 
 .customer-review-container>div:hover,
-.discount-item-1>div:hover,
-.discount-item-2>div:hover {
+.discount-card-1:hover,
+.discount-card-2:hover {
     transform: scale(1.03);
 }
 
 .customer-review-content,
-.discount-item-1,
-.discount-item-2 {
+.discount-card-1,
+.discount-card-2 {
     transition: all .3s ease-in-out;
 }
